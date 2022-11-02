@@ -15,7 +15,7 @@ def part1(li):
     for i in range(1, len(li)):
         if li[i - 1] < li[i]:
             ans += 1
-    print("answer for part1:" + str(ans))
+    print("answer for part1 of day 1 is: " + str(ans))
 
 
 def part2(li):
@@ -24,7 +24,7 @@ def part2(li):
     for i in range(0, len(li) - 3):
         if li[i] < li[i + 3]:
             ans += 1
-    print("answer for part 2 of day 1 is:" + str(ans))
+    print("answer for part 2 of day 1 is: " + str(ans))
 
 
 if __name__ == "__main__":
